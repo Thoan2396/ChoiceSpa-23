@@ -1,0 +1,117 @@
+body {
+    font-family: "Merriweather", serif;
+    line-height: 1.2;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: black;
+    background: #b1be9a;
+}
+.container{
+    max-width: 1313px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main {
+    overflow: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+.logo{
+    margin-bottom: 60px;
+    letter-spacing: 5px;
+    animation: fadeGlow 3s infinite alternate;
+    color: black;
+    @keyframes fadeGlow{
+        from{
+            text-shadow: 0 0 5px #4caf50;
+        }    
+        to{
+            text-shadow: 0 0 15px #4caf50;
+        }
+    }
+    .logo-title{
+        margin-bottom: 25px;
+        font-size: 75px;
+    }
+    .logo-text{
+        font-size: 20px;
+    }
+}
+img {
+    max-width: 100%;
+    // vertical-align: top;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+h3{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 12px;
+    line-height: 15px;
+}
+.button{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    &:hover {
+        background: #ebdbc3;
+        border-color: #ebd89c;
+        transition: all 0.3s ease;
+        color:black;
+    }  
+}
+.toolbar{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    background-color: black;
+    color: white;
+} 
+.item-box{
+    width: 325px;
+    .item-prices{
+        font-size: 23px;
+        padding-bottom: 10px;
+    }
+    .item-box-oder{
+        display: flex;
+        padding-top: 22px;
+        gap: 10px;
+        .button{
+            font-size: 10px;
+            width: 160px;
+            height: 33px;
+        }
+        input{
+            width: 67px;
+            height: 33px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+    }
+} 
+input[type="email"] ,
+input[type="name"]{
+    height: 40px;
+    padding: 8px 12px;
+}
+input[type="submit"]{
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}

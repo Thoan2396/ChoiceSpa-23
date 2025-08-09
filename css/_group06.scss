@@ -1,0 +1,36 @@
+.group06{
+    padding: 100px 0 120px;
+    .container{
+        display: flex;
+        gap: 100px;
+        
+        .sub06{
+            width: 330px;
+            padding-right: 40px;
+            &-title{
+                margin-bottom: 70px;
+                font-size: 30px;
+            }
+            &-text{
+                font-size: 20px;
+                line-height: 1.5;
+                margin-bottom: 38px;
+                letter-spacing: 3px;
+            }
+            &-review{
+                width: 300px;
+                line-height: 1.2;
+                letter-spacing: 2px;
+                font-size: 14px;
+            }
+        }
+        .img06{
+            display: flex;
+            gap: 15px;
+            img{
+                width: 445px;
+                height: 445px;
+            }
+        }
+    }
+}

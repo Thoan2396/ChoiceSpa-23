@@ -1,0 +1,31 @@
+.pagefooter{
+    .container{
+        height: auto;
+        display: grid;
+        gap: 20px;
+        text-align: left;
+        grid-template-columns: 3fr 4fr 3fr;
+        .members{
+            text-align: left;
+            & form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 20px 0;
+            }
+        }
+        .logo{
+            text-align: center;
+        }
+        .info >div {
+            margin-bottom: 50px;
+            & h2 {
+                margin-bottom: 13px;
+            }
+            & li {
+                font-size: 13px;
+                line-height: 25px;
+            }
+        }
+    }
+}

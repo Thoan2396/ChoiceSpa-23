@@ -1,0 +1,30 @@
+.header{
+    text-align: center;
+    padding-top: 60px;
+    .container{
+        .menu{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            li a{
+                text-decoration: none;
+                font-size: 15px;
+                font-weight: 550;
+                color: black;
+                background: rgb(235 226 213);
+                padding: 13px 15px;
+                border-radius: 3px;
+                &:hover {
+                    background: #8b9775;
+                    transition: all 0.3s ease;
+                    color:#ffff;
+                }
+            }
+        } 
+        .toolbar{
+            margin: 60px auto;
+        }     
+    }
+}
+ 

@@ -1,0 +1,59 @@
+.group02{
+    padding: 90px 75px 100px 65px;
+    .container{
+        .name02{
+            font-size: 29px;
+            margin-bottom: 35px;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            .box-text{
+                width: 210px;
+                text-align: right;
+                border-right: 3px solid black;
+                padding-right: 18px;
+                margin-right: 55px;
+                .box-text01{
+                    padding-bottom: 80px;
+                }
+            }
+            .box-img{
+                margin-right: 15px;
+                img{
+                    width: 625px;
+                    height: 420px;
+                }
+            }
+            .box-oder{
+                width: 280px;
+                padding-top: 65px;
+                .name03{
+                    font-size: 25px;
+                    letter-spacing: 3px;
+                    margin: 0 0 25px 20px;
+                }
+                img{
+                    width: 280px;
+                    height: 195px;
+                }
+                .button{
+                    font-size: 13px;
+                    display: flex;
+                    height: 37px;
+                    margin: 0 0 33px 20px;
+                        &:hover {
+                            border-color: #ebd89c;
+                            transition: all 0.3s ease;
+                            background: #ebdbc3;
+                            color:black;
+                            } 
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,34 @@
+.group01{
+   .container{
+      width: 1111px;
+      height: 740px;
+      position: relative;
+      // .slick-prev:before, .slick-next:before{
+      //    font-size: 100px;
+      // }
+      img{
+         width: 100%;
+         height: 740px;
+         z-index: 0;
+      }
+      .container-text{
+         position: absolute;
+         width: 310px;
+         padding-top: 60px;
+         left: 10%;
+         pointer-events: none;
+         z-index: 1;
+         top: 0;
+         .name{
+            font-size: 25px;
+         }
+         .sub{
+            word-spacing: 2px;
+            font-size: 15px;
+            letter-spacing: 2px;
+            line-height: 20px;
+            margin-top: 20px;
+         }
+      }                 
+   }
+}     

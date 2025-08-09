@@ -1,0 +1,28 @@
+.group04{
+    padding-bottom: 75px;
+    .container{
+        border-top: 2px solid black;
+        padding-top: 63px;
+        .title04{
+            font-size: 37px;
+            text-align: center;
+            letter-spacing: 4px;
+            padding-bottom: 95px;
+        }
+        .group{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            .item{
+                box-sizing: border-box;
+                width: 350px;
+                img{
+                    width: 355px;
+                    height: 355px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}
