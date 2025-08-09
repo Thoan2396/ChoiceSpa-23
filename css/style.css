@@ -115,7 +115,7 @@ p {
 }
 
 input[type=email],
-input[type=name] {
+input[type=text] {
   height: 40px;
   padding: 8px 12px;
 }
@@ -309,7 +309,7 @@ input[type=submit] {
   padding: 60px 0 70px 0;
 }
 .group05 .container {
-  background-image: url(/image/group05.png);
+  background-image: url(../image/group05.png);
   width: 1111px;
   height: 740px;
   background-repeat: no-repeat;
