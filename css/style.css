@@ -12,6 +12,7 @@ body {
   max-width: 1313px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .main {
@@ -151,6 +152,10 @@ input[type=submit] {
   transition: all 0.3s ease;
   color: white;
 }
+.header .container .menu li:last-child a {
+  background: red;
+  color: white;
+}
 .header .container .toolbar {
   margin: 60px auto;
 }
@@ -197,48 +202,39 @@ input[type=submit] {
 .group02 .container .box {
   display: flex;
   justify-content: center;
+  gap: 50px;
 }
 .group02 .container .box .box-text {
   width: 210px;
   text-align: right;
   border-right: 3px solid black;
   padding-right: 18px;
-  margin-right: 55px;
 }
 .group02 .container .box .box-text .box-text01 {
   padding-bottom: 80px;
 }
 .group02 .container .box .box-img {
-  margin-right: 15px;
-}
-.group02 .container .box .box-img img {
-  width: 625px;
+  width: 630px;
   height: 420px;
 }
-.group02 .container .box .box-oder {
+.group02 .container .box .item-box {
   width: 280px;
-  padding-top: 65px;
-}
-.group02 .container .box .box-oder .name03 {
   font-size: 25px;
   letter-spacing: 3px;
-  margin: 0 0 25px 20px;
 }
-.group02 .container .box .box-oder img {
-  width: 280px;
-  height: 195px;
-}
-.group02 .container .box .box-oder .button {
-  font-size: 13px;
+.group02 .container .box .item-box .item-box-oder {
   display: flex;
-  height: 37px;
-  margin: 0 0 33px 20px;
+  align-items: center;
+  gap: 10px;
 }
-.group02 .container .box .box-oder .button:hover {
-  border-color: #ebd89c;
-  transition: all 0.3s ease;
-  background: #ebdbc3;
-  color: black;
+.group02 .container .box .item-box img {
+  width: 280px;
+  height: 200px;
+}
+.group02 .container .box .item-box .button {
+  font-size: 13px;
+  height: 37px;
+  margin: 30px 0;
 }
 
 .group03 {
