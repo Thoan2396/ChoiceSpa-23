@@ -1,4 +1,6 @@
 # ChoiceSpa-23
+Live Demo: https://thoan2396.github.io/ChoiceSpa-23/  
+Repo: https://github.com/Thoan2396/ChoiceSpa-23
 概要
 - スパ＆自然化粧品ブランドを紹介するランディングページ  
 - 使用技術：HTML・SCSS・JavaScript  
