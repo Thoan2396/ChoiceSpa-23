@@ -1,4 +1,4 @@
-# ChoiceSpa-23
+# ChoiceSpa home page
 Live Demo: https://thoan2396.github.io/ChoiceSpa-23/  
 Repo: https://github.com/Thoan2396/ChoiceSpa-23.git
 
